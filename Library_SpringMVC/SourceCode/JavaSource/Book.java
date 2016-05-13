@@ -6,6 +6,17 @@ public class Book {
 	private Title title;
 	private Chapter chapters;
 	
+	public Book(){
+		
+	}
+	
+	public Book(int isbn, String author, Title title, Chapter chapters) {
+		super();
+		this.isbn = isbn;
+		this.author = author;
+		this.title = title;
+		this.chapters = chapters;
+	}
 	public int getIsbn() {
 		return isbn;
 	}

@@ -2,6 +2,15 @@
 public class Title {
 	
 	private String titleValue;
+	
+	public Title(){
+		
+	}
+
+	public Title(String titleValue) {
+		super();
+		this.titleValue = titleValue;
+	}
 
 	public String getTitleValue() {
 		return titleValue;

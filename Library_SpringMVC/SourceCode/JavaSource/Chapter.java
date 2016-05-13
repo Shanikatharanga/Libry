@@ -3,6 +3,17 @@ public class Chapter {
 	private int number;
 	private Title title;
 	private String content;
+	
+	public Chapter(){
+		
+	}
+	
+	public Chapter(int number, Title title, String content) {
+		super();
+		this.number = number;
+		this.title = title;
+		this.content = content;
+	}
 	public int getNumber() {
 		return number;
 	}
