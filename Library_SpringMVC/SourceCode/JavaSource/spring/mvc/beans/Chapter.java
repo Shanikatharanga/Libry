@@ -1,3 +1,4 @@
+package spring.mvc.beans;
 
 public class Chapter {
 	private int number;
